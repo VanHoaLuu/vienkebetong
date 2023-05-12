@@ -1,0 +1,340 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f9f9ff;
+}
+.logo{
+    height: 150px;
+}
+.diachi{
+  text-align: center;
+}
+.address{
+  color: #131313;
+  /* letter-spacing: .15em;
+  text-shadow: 1px -1px 0 #c9c6c6, -1px 2px 1px #c2bfbf, -2px 4px 1px #c2bbbb, -3px 6px 1px #ccc4c4, -4px 8px 1px #afacac; */
+}
+
+.home{
+    height: 35px;
+}   
+.a{
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 800;
+}
+.hotline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-hl{
+    height: 60px;
+}
+div h1 span{
+    font-family: arial;
+    font-size: x-large;
+    color: #2828a9;
+}
+.h1{
+  font-size: 20px;
+}
+/* ----------------------------------------------------------------------------------- */
+#menu ul {
+    background: #1F568B;
+    list-style-type: none;
+    text-align: center;
+  }
+  #menu li {
+    color: #f1f1f1;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 5px;
+  }
+  #menu a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    display: block;
+  }
+  #menu a:hover {
+    background: #F1F1F1;
+    color: #333;
+  }
+
+  /* --------------------------------------------------------------------------------------------------- */
+  .intro {
+    position: relative;
+    margin: 2em;
+    padding: 0.2em 0.6em;
+    cursor: pointer;
+    color: #2c2ca1;
+    font-size: 2.5em;
+    max-width: 26em;
+    font-weight: 700;
+    letter-spacing: .05em;
+  text-shadow: 4px 4px 0px #c3c3c3, 7px 7px 0px rgba(0, 0, 0, 0.2);
+  }
+  .intro h1 {
+    margin-bottom: 0.5em;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: .05em;
+  text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+  }
+  #CrossFade {
+    background: #fff;
+    display: flex;
+    align-items: flex-start;
+    overflow: hidden;
+    height: 450px;
+    position: relative;
+  }
+  #CrossFade img {
+    position: absolute;
+    object-fit: cover;
+    height: 550px;
+    width: 100%;
+    background: #000;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    opacity: 0;
+    transform: scale(1.4) rotate(12deg);
+    -webkit-animation: CrossFade 24s infinite;
+    animation: CrossFade 24s infinite;
+  }
+  #CrossFade img:nth-child(3) {
+    -webkit-animation-delay: 6s;
+            animation-delay: 6s;
+  }
+  #CrossFade img:nth-child(2) {
+    -webkit-animation-delay: 12s;
+            animation-delay: 12s;
+  }
+  #CrossFade img:nth-child(1) {
+    -webkit-animation-delay: 18s;
+            animation-delay: 18s;
+  }
+  @-webkit-keyframes CrossFade {
+    25% {
+      opacity: 1;
+      transform: scale(1) rotate(0);
+    }
+    40% {
+      opacity: 0;
+    }
+  }
+  @keyframes CrossFade {
+    25% {
+      opacity: 1;
+      transform: scale(1) rotate(0);
+    }
+    40% {
+      opacity: 0;
+    }
+  }
+
+  .title{
+    text-align: center;
+    color: #2828a9;
+    font-size: 60px;
+  }
+
+  .img-title{
+    height: 360px;
+  }
+  .title-1{
+    display: grid;
+    grid-template-columns: 639px 576px;
+    justify-content: center;
+  }
+  .title-2{
+    display: grid;
+    grid-template-columns: 399px 409px 410px;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  .img-title2{
+    height: 300px;
+  }
+  .photo:hover img{
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.4);
+
+  }
+  .photo img{
+    display: block;
+    transition: all .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  /* .hv:hover{
+    transform: scale(1.01);
+    transition: .3s;
+  } */
+.bd{
+  position: relative;
+}
+.text-i{
+  position: absolute;
+  margin-top: 225px;
+  margin-left: 30px;
+  background-color: #f6f6f6;
+  padding: 15px;
+  text-align: center;
+  font-family: arial;
+  color: #2a2f9f;
+  font-weight: 400;
+}
+.text-ii{
+  position: absolute;
+  background-color: #f6f6f6;
+  padding: 15px;
+  margin-top: 225px;
+  margin-left: 30px;
+  text-align: center;
+  font-family: arial;
+  color: #2a2f9f;
+  font-weight: 400;
+}
+.text-iii{
+  position: absolute;
+  background-color: #f6f6f6;
+  padding: 15px;
+  margin-top: 185px;
+  margin-left: 30px;
+  text-align: center;
+  font-family: arial;
+  color: #2a2f9f;
+  font-weight: 400;
+  font-size: 25px;
+}
+.text-iiii{
+  position: absolute;
+  background-color: #f6f6f6;
+  padding: 15px;
+  margin-top: 185px;
+  margin-left: 30px;
+  text-align: center;
+  font-family: arial;
+  color: #2a2f9f;
+  font-weight: 400;
+  font-size: 25px;
+}
+.text-iiiii{
+  position: absolute;
+  background-color: #f6f6f6;
+  padding: 15px;
+  margin-top: 185px;
+  margin-left: 30px;
+  text-align: center;
+  font-family: arial;
+  color: #2a2f9f;
+  font-weight: 400;
+  font-size: 25px;
+}
+.choose{
+  background-image: url(C:/Users/LAPTOP/Desktop/vienkebetong/Image/choose.png);
+  padding-bottom: 50px;
+}
+
+.span{
+  font-weight: 100;
+}
+.h6{
+  font-size: 15px;
+  padding-left: 15px;
+  font-family: arial;
+}
+.icon{
+    height: 50px;
+    padding-top: 35px;
+}
+.content{
+  display: grid;
+  grid-gap: 30px 60px;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+}
+.cnt{
+  display: flex;
+  background-color: #efefef;
+  border-radius: 20px;
+  padding: 10px;
+}
+.think{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.pngthink{
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.span-think{
+  font-size: large;
+  font-weight: 100;
+}
+.h2{
+  background: #e2f3f3;
+  border-radius: 15px;
+  width: 375px;
+  padding: 10px;
+  font-family: arial;
+}
+
+.fflo{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+/* --------------- */
+.foodter{
+  display: grid;
+  grid-template-columns: 250px 250px 250px 350px;
+  grid-gap: 20px;
+  justify-content: space-around;
+  align-items: start;
+  background-image: url(C:/Users/LAPTOP/Desktop/vienkebetong/Image/banner.png);
+
+}
+.f-font{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #2626ac;
+}
+.fb{
+  height: 30px;
+}
+.fb-txt{
+  font-size: 17px;
+  display: flex;
+  padding-top: 8px;
+  align-items: center;
+}
+.fbb{
+  padding-left: 7px;
+}
+.ff-c{
+  display: flex;
+  flex-direction: column;
+}
+.foodter-txt{
+  font-size: 17px;
+  color: #2e3a99;
+  padding-top: 10px;
+}
+.f-get{
+  display: flex;
+  flex-direction: column;
+}
+.f-exp{
+  display: flex;
+  flex-direction: column;
+} 
+.foodter a{
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none}
